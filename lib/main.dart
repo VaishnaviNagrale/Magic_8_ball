@@ -1,5 +1,4 @@
 import 'dart:collection';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,11 +26,11 @@ class _MyAppState extends State<_MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blueAccent,
         appBar: AppBar(
           backgroundColor: Colors.indigo[900],
           title: const Center(
-            child: Text('Ask Me Anything',
+            child: Text('Ask me anything',
             style: TextStyle(
               color: Colors.white,
             ),),
